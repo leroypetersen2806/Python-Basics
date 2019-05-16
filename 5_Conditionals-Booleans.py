@@ -70,7 +70,7 @@ print(id(a) == id(b))  # Evaluates to True as the id's match
 # False Values:
 - False
 - None
-- Zero of any numeric type
+- Zero of any numeric type, all other values evaluates to True
 - An empty sequence. E.g '', [], ()
 - An empty mapping. E.g. {}
 '''
