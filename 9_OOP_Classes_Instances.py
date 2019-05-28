@@ -12,6 +12,7 @@ Instance vars contain data that is UNIQUE to each instance.
 class Employee:
     # Initialise // Constructor method (self is the instance. e.g. emp_1.first = "Meh")
     def __init__(self, first, last, pay):
+        # Instance Variables Below
         self.first = first
         self.last = last
         self.pay = pay
