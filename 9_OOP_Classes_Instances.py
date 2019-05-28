@@ -20,6 +20,7 @@ class Employee:
 
     # Method also automatically take the instance (emp_1 / emp_2) as the first argument (self)
     def fullname(self):
+        """Returns full name of Employee"""
         return f"{self.first} {self.last}"
 
 
