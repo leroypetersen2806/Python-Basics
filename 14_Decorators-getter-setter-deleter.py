@@ -8,6 +8,7 @@ class Employee:
         self.last = last
         # self.email = f"{first}.{last}@company.com"
 
+    # @property decorator allows us not to use EMP_1.email(), but instead EMP_1.email - See below
     @property
     def fullname(self):
         """Returns the fullname of the employee"""

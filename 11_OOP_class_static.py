@@ -27,6 +27,7 @@ class Employee:
         self.pay = int(self.pay * self.raise_amount)
 
     # Takes in the class as the first argument and no longer the instance.
+    # We are working with the class instead of the instance of a class
     @classmethod  # This is a decorator
     def set_raise_amount(cls, amount):
         """Using a class method"""
